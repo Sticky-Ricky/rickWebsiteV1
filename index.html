@@ -7,43 +7,47 @@
 	<body>
 		<div id="page-banner" class = "banner"> 
 			<header>
-				<h1 id="title"> Eric's Dope Resume</h1>
+				<h1 id="title"> Eric's Resume</h1>
 				<nav>
 					<a href= "#contact-info"> Contact | </a>
 					<a href= "#education-info"> Education |</a>
-					<a href= "#experience-info"> Experince & Service |</a>
+					<a href= "#experience-info"> Experience |</a>
+					<a href= "#project-info"> Projects |</a>
 					<a href= "#skills"> Skills |</a>
 					<a href= "#activities"> Activities |</a>
 				</nav>
 			</header>
+			<img src="VTPic.jpeg" alt="VTLandscape">
 		</div>
 		<div id="main-resume">
 			<section id="objective" class="resume-section">
 				<h1 id="objective-header" class="objective">Objective </h1>
-					<p id="objective-content" class="objective">A motivated and hard-working computer science student looking to acquire a summer internship or co-op in an interactive, innovative, and challenging technical environment.</p>
+					<p id="objective-content" class="objective">A motivated and hard-working computer science student looking to acquire a full-time position in an interactive, innovative, and challenging technical environment.</p>
 			</section>
 
 			<section id="education-info" class="resume-section">
 				<h2 id="section-header"> Education</h2>	
-					<li>
-						Virginia Tech – Blacksburg, VA | May 2022
-					</li>
-					<li>
-						Major: Computer Science
-					</li>
-					<li>
-						GPA: 3.49
-					</li>
-					<li>
-						Interests: VR, HCI, AR, Cybersecurity, Systems/Software Engineering, Big Data
-					</li>
-					<li>
-						Minor Interests: HCI, MATH
-					</li>
+					<ul class="education-list">
+						<li>
+							Virginia Tech – Blacksburg, VA | May 2022
+						</li>
+						<li>
+							Major: Computer Science
+						</li>
+						<li>
+							Minor: Mathematics
+						</li>
+						<li>
+							GPA: 3.49
+						</li>
+						<li>
+							Relevant Coursework: GUI Development, HCI, Operating Systems, Computer Architecture, Data & Algorithm Analysis, Software Engineering, Combinatorics, Cryptography, Differential Equations
+						</li>
+					</ul>
 			</section>
 
 			<section id="experience-info" class="resume-section">
-				<h2 id="experience-header"> Experince & Service</h2>	
+				<h2 id="experience-header"> Experience</h2>	
 					<h4 class="sub-header"> Web Development Intern | CACI – Chantilly 2020</h4>
 						<p id="job1-info"> Fulfilled role as a web developer on the CACI TSCSG team. Made updates to an internal SharePoint website to enhance scheduling system. Assisted with the setup and configuration within a cloud- hosted environment AWS (Amazon Web Services).
 						</p>
@@ -61,12 +65,37 @@
 						</p>
 			</section>
 
+			<section id="project-info" class="resume-section">
+				<h2 id="project-header"> Projects </h2>
+					<h4 class="sub-header" id="project1-header"> Personal Secure Server </h4>
+						<p id="project1-info"> 
+							Used principles of internetwork communication (HTTP/ TCP) along with JSON Web Tokens to implement a basic concurrent server.
+						</p>
+					<h4 class="sub-header" id="project2-header"> Threadpool </h4>
+						<p id="project2-info"> 
+							Created a small fork/join framework that allows the parallel execution of divide-and-conquer algorithms 
+						</p>
+					<h4 class="sub-header" id="project3-header"> MIPS32 Assembler </h4>
+						<p id="project3-info"> 
+							Implemented an assembler that supported translation of MIPS32 assembly language to machine code
+						</p>
+					<h4 class="sub-header" id="project4-header"> Custom Shell </h4>
+						<p id="project4-info"> 
+							Developed simple job control shell similar to the functionality implement by BASH
+						</p>
+			</section>
+
 			<section id="skills" class="resume-section">
 				<h2 id="skills-header"> Skills</h2>	
-					<li>Coding – C, Java, Python, Linux, AWS, MATLAB</li>
-					<li>Microsoft Office</li>
-					<li>Autodesk Inventory/CAD</li>
-					<li>English, Spanish (Proficient), and Portuguese (Proficient)</li>
+					<ul class="skills-list">
+						<li>Software – C, Java, Python, Linux, AWS, MATLAB, HTML, CSS, JS</li>
+						<li>Parallel Programming</li>
+						<li>Object Oriented Programming</li>
+						<li>Microsoft Office</li>
+						<li>Autodesk Inventory/CAD</li>
+						<li>English (Native)</li>
+						<li> Spanish & Portuguese (Proficient)</li>
+					</ul>
 			</section>
 
 			<section id="activities" class="resume-section">
@@ -80,14 +109,6 @@
 					<h4 class="sub-header"> Spikeball club | Virginia Tech 2018-Present</h4>
 						<p id="job1-info"> Play spikeball with other students around campus
 						</p>
-					<h4 class="sub-header"> CEED Mentor Program | Virginia Tech 2018-Present</h4>
-						<p id="job1-info"> Developed leadership and professional development skills through various activities in the CEED mentorship Program
-						</p>
-						<p>Developed a greater understanding and knowledge of different engineering disciplines</p>
-					<h4 class="sub-header"> Intramural Sports | Virginia Tech 2018-Present</h4>
-						<p id="job1-info"> Soccer, Volleyball, Basketball, Football, etc
-						</p>
-
 			</section>
 
 			<section id="contact-info" class="resume-section">
