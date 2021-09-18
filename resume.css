@@ -1,0 +1,186 @@
+body {
+    background-color: white;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    padding:0px;
+    margin:0px;
+}
+
+
+/* The sidebar menu */
+.sidenav {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    text-align: right;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #626E60;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    }
+}
+
+h2{
+    border-bottom: 5px solid black;
+    padding-bottom: 5px;
+}
+
+#contact-header{
+    border-bottom: 5px solid white;
+    padding-bottom: 5px;
+}
+
+section{
+
+  border-radius: 25px;
+  box-shadow:20px 20px 50px 10px lightcyan;
+  font-family: "Times", "Times New Roman", serif;
+  text-align: center;
+  
+}
+
+#pic1{
+    width: 100%;
+    height: auto;
+}
+
+#pic2{
+    width: 100%;
+    height: auto;
+}
+
+#pic3{
+    width: 100%;
+    height: auto;
+    transform: rotateX(180deg);
+}
+
+#splashC{
+    z-index: 1;
+    position: relative;
+    text-align: center;
+}
+
+#title{
+    
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Lucida Handwriting", cursive;
+    font-size: 120px;
+    color: white;
+}
+
+#desc{
+    
+    z-index: 2;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Lucida Handwriting", cursive;
+    font-size: 30px;
+}
+
+#objective{
+    top: 5%;
+    left: 30%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 35%;
+}
+
+#education-info{
+    top: 8%;
+    left: 70%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+     width: 35%;
+}
+
+#experience-info{
+    top: 40%;
+    left: 30%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 35%;
+}
+
+#project-info{
+    top: 40%;
+    left: 70%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 35%;
+}
+
+#skills{
+    top: 77%;
+    left: 30%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 35%;
+    color: #e72c52;
+
+}
+
+#activities{
+    top: 77%;
+    left: 70%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 35%;
+    color: #24bbb1;
+
+}
+
+#contact-info{
+    color: white;
+    background-color: white;
+    width: 30%;
+    top: 70%;
+    left: 50%;
+    z-index: 3;
+    border-bottom: 5px solid white;
+    padding-bottom: 0;
+    box-shadow:10px 10px white;
+    
+}
+
+#main{
+    position: relative;
+}
+
+.education-list{
+    text-align: center;
+}
